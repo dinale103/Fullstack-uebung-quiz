@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz night</title>
+    <link rel ="stylesheet" href ="quiz.css"> <!-- Link to the CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to kickstart Quiz</h1>
+         <img src ="OIP.jpg" alt="Quiz Visual" height="200px" width="200px">
+         <p class="subtitle">Topic: Project Management </p>
+    </header>
+    <h3>Let's test your knowledge!</h3>  
+    <h4> Owner: Dina Le</h4>
+    <p><i>Email: <a href="mailto:dina.le@accenture.com">dina.le@accenture.com</a></i></p>
+
+    <br>
+    <section>
+        <form id="quizForm"> <!-- collect user input -->
+            <label for="question1">1. What is Risk Management?</label><br> <!--description -->
+            <input type="text" id="question1" name="question1"><br><br>
+
+            <label for="question2">2. What is Requirement Engineering?</label><br>
+            <input type="text" id="question2" name="question2"><br><br>
+
+            <label for="question3">3. What is Agile? What is Scrum Framework?</label><br>
+            <input type="text" id="question3" name="question3"><br><br>
+
+            <label for ="question 4" >4. What is SQERT Model?</label><br>
+            <input type ="text" id ="question4" name ="question4"><br><br>
+
+            <label for ="question 5" >5. What are roles in Scrum and their responsibilities ?</label><br>
+            <input type ="text" id ="question5" name ="question5"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <br>
+    <section> 
+        <details>
+            <summary>Sample Solutions</summary>
+            <ol>
+                
+                <li><strong>Risk Management</strong> The process of identifying, analyzing, and responding to risks in a systematic way.</li> <br>
+                <li><strong>Requirement Engineering:</strong> The process of defining, documenting, and maintaining requirements in the engineering design process.</li> <br>
+                <li><strong>Agile:</strong> A set of principles for software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams. <br>
+                <strong>Scrum Framework:</strong> A framework for managing and completing complex projects.</p> 
+                <li><strong>SQERT Model:</strong> A model for evaluating software quality.</li>
+            
+                    <ul>
+                        <li>S - Scope (Requirement Management)</li>
+                        <li>Q - Quality (Quality Management)</li>
+                        <li>E - Effort (Effort & Time Management)</li>
+                        <li>R - Risk (Risk Management)</li>
+                        <li>T - Time (Time Management)</li>
+                    </ul>
+                <details>
+                    <summary>See more</summary>
+                    <img src="SQUERT.png" alt="SQERT Model" height = "200px" width ="400px">
+                </details>
+                <br><br>
+                <li><strong>Roles in Scrum and their responsibilities:</strong></li> <br>
+                    <table border ="1">
+                        <thead>
+                            <tr>
+                                <th>Role</th>
+                                <th>Responsibilities</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Product Owner</td>
+                                <td>Defines and prioritizes the product backlog.</td>
+                            </tr>
+                            <tr>
+                                <td>Scrum Master</td>
+                                <td>Facilitates Scrum and removes obstacles.</td>
+                            </tr>
+                            <tr>
+                                <td>Development Team</td>
+                                <td>Build the product increment.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ol>
+        </details>
+    </section>
+</body>
+</html>

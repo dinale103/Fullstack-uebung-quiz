@@ -1,0 +1,23 @@
+header{
+    background: linear-gradient(to bottom, rgb(243, 104, 128), rgb(255, 240, 245));
+    text-align: center;
+    padding: 20px;
+    color: rgb(246, 242, 242);
+    border-radius: 5px;
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(242, 145, 161);
+    border-radius: 5px;
+    background: rgb(255, 240, 245);
+}
+img{
+    align-items: center;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+.subtitle{
+    font-size: 1.2em;
+    color: rgb(10, 10, 10);
+}
